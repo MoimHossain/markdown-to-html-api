@@ -1,0 +1,32 @@
+{
+  "name": "markdown-to-html-api",
+  "version": "1.0.0",
+  "description": "A docker image that publishes API to convert markdown files to HTML",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoimHossain/markdown-to-html-api.git"
+  },
+  "keywords": [
+    "markdown",
+    "node",
+    "docker",
+    "express",
+    "convert"
+  ],
+  "author": "Moim Hossain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MoimHossain/markdown-to-html-api/issues"
+  },
+  "homepage": "https://github.com/MoimHossain/markdown-to-html-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "markdown-it": "^8.4.2"
+  }
+}
